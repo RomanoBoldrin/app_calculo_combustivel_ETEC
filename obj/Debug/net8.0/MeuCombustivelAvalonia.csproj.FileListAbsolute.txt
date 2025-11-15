@@ -73,3 +73,4 @@
 /home/romano/my_files/etec/vitor/DS/agenda_10_DS/vitorBoldrin_agenda_10_DS/MeuCombustivelAvalonia/obj/Debug/net8.0/MeuCombustivelAvalonia.pdb
 /home/romano/my_files/etec/vitor/DS/agenda_10_DS/vitorBoldrin_agenda_10_DS/MeuCombustivelAvalonia/obj/Debug/net8.0/MeuCombustivelAvalonia.genruntimeconfig.cache
 /home/romano/my_files/etec/vitor/DS/agenda_10_DS/vitorBoldrin_agenda_10_DS/MeuCombustivelAvalonia/obj/Debug/net8.0/ref/MeuCombustivelAvalonia.dll
+/home/romano/my_files/etec/vitor/DS/agenda_10_DS/vitorBoldrin_agenda_10_DS/MeuCombustivelAvalonia/obj/Debug/net8.0/MeuCombustivelAvalonia.sourcelink.json

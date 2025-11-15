@@ -3,20 +3,37 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="clr-namespace:MeuCombustivelAvalonia.ViewModels"
     x:Class="MeuCombustivelAvalonia.Views.MainWindow"
-    x:DataType="vm:MainWindowViewModel">
+    x:DataType="vm:MainWindowViewModel"
+    Width="400" Height="500"
+    Title="Meu Combustível">
 
-    <StackPanel Margin="20" Spacing="10">
-        <TextBlock Text="Preço do Etanol:"/>
-        <TextBox Text="{Binding Etanol}"/>
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="12">
 
-        <TextBlock Text="Preço da Gasolina:"/>
-        <TextBox Text="{Binding Gasolina}"/>
+            <TextBlock Text="Marca do Veículo:"/>
+            <TextBox Text="{Binding Marca}"/>
 
-        <Button Content="Qual compensa mais?"
-                Command="{Binding CalcularCommand}"/>
+            <TextBlock Text="Modelo do Veículo:"/>
+            <TextBox Text="{Binding Modelo}"/>
 
-        <TextBlock Text="{Binding Resultado}"
-                   FontWeight="Bold"/>
-    </StackPanel>
+            <TextBlock Text="Preço do Etanol:"/>
+            <TextBox Text="{Binding Etanol}"/>
+
+            <TextBlock Text="Preço da Gasolina:"/>
+            <TextBox Text="{Binding Gasolina}"/>
+
+            <Button Content="Qual compensa mais?"
+                    Command="{Binding CalcularCommand}"
+                    Width="200" HorizontalAlignment="Center"/>
+
+            <TextBlock Text="{Binding Resultado}"
+                       FontSize="16"
+                       TextWrapping="Wrap"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="10"/>
+
+        </StackPanel>
+    </ScrollViewer>
 
 </Window>

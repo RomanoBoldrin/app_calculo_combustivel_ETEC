@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeuCombustivelAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea2ca482861df82e05c13fb932f77dfb751fbd76")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeuCombustivelAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeuCombustivelAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
