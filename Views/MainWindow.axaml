@@ -1,0 +1,22 @@
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:MeuCombustivelAvalonia.ViewModels"
+    x:Class="MeuCombustivelAvalonia.Views.MainWindow"
+    x:DataType="vm:MainWindowViewModel">
+
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Preço do Etanol:"/>
+        <TextBox Text="{Binding Etanol}"/>
+
+        <TextBlock Text="Preço da Gasolina:"/>
+        <TextBox Text="{Binding Gasolina}"/>
+
+        <Button Content="Qual compensa mais?"
+                Command="{Binding CalcularCommand}"/>
+
+        <TextBlock Text="{Binding Resultado}"
+                   FontWeight="Bold"/>
+    </StackPanel>
+
+</Window>
